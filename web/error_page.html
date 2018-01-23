@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ErrorPage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="display-flex">
+    <div class="block-wrap">
+        <form name="myApp" method="post" id="form" action="/main/">
+            <div class="block-container">
+                <div class="block__item" id="bi1"><input type="text" name="hours" placeholder="h" class="textarea"></div>
+                <div class="block__item"><input type="text" name="minutes"placeholder="m" class="textarea"></div>
+            </div>
+            <div class="block-container">
+                <div class="block__item block__item-lg"><button type="submit" id="button"></button>
+                    <div class="error">Введите числа</div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

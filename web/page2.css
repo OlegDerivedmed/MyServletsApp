@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 5px;
+}
+.display-flex {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-container {
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
+
+.block__item {
+    width: 200px;
+    text-align: center;
+}
+.block__item-lg {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+
+}
+.textarea{
+    text-align: center;
+    width: 50px;
+}
+#bi1{
+    margin-left: 75px;
+}
+#button{
+    background: url("close.png") no-repeat center;
+    width:100px;
+    height:70px;
+    border: none;
+}
+#button:focus{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+#button:active{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: url("close_active.png") no-repeat center;
+}
